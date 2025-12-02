@@ -4,6 +4,7 @@
 #include <cuda_runtime.h>
 #include "vector.h"
 #include "config.h"
+#include "compute.h" 
 
 // External globals
 extern vector3 *hVel, *hPos;
